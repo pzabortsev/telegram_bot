@@ -2,10 +2,10 @@
 
 ## Источники данных
 Бот имеет возможность получать данные из двух источников данных:
-1. CryptoCompare powered by CCDATA ([httpcryptocompare.com](https://www.cryptocompare.com/) с использованием API
-2. Центробанк России с использованием парсинга HTML-страницы
+1. [CryptoCompare powered by CCDATA] (https://www.cryptocompare.com/) с использованием API
+2. [Центробанк России] (https://www.cbr.ru/currency_base/daily/) с использованием парсинга HTML-страницы
 
-Источник данных (тип API) выбирается в конфигурационном файле:
+Источник данных (тип API) указывается в конфигурационном файле:
 ```
 [default]
 API = CBRF
