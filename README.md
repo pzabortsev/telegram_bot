@@ -5,7 +5,7 @@
 1. [CryptoCompare powered by CCDATA] (https://www.cryptocompare.com/) с использованием API
 2. [Центробанк России] (https://www.cbr.ru/currency_base/daily/) с использованием парсинга HTML-страницы
 
-Источник данных (тип API) указывается в конфигурационном файле:
+Источник данных (тип API) **CBRF** или **CCDATA** указывается в конфигурационном файле:
 ```
 [default]
 API = CBRF
@@ -19,3 +19,12 @@ REDIS_ADDR = host.domain
 REDIS_PORT = 6379
 REDIS_PASSWORD = Pa$$w0RD
 ```
+
+## Зависимости
+Для корректной работы бота должны быть установлены следующие модули:
+- telebot
+- lxml
+- requests
+- beautifulsoup4
+- json
+- redis
